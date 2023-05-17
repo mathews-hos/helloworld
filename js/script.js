@@ -27,3 +27,14 @@ function arearetangulo(base, altura) {
 function areacirculo(raio) {
     return 3.1 * (raio * raio)  //pi x raio^2
 }
+
+function calccir(raio = prompt("qual o raio do circulo")) {
+    return 3.1 * (raio * raio)  //pi x raio^2
+}
+
+function hipotrian(cat1 = prompt("qual o valor do cateto 1?"), cat2 = prompt("qual o valor do cateto 2?")) {
+    return Math.sqrt((cat1 * cat1) + (cat2 * cat2))
+}
+function readoll(reais = prompt("quantos reais quer converter?"), doll = 4.93) {
+    return reais * doll
+}
