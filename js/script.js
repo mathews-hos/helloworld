@@ -15,8 +15,7 @@ function divisao(n1, n2) {
 }
 
 
-function mostrarnome() {
-    let nome = prompt("Qual o seu nome?")
+function mostrarnome(nome = prompt("Qual o seu nome?")) {
     alert("olá, " + nome)
 }
 
